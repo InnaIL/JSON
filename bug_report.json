@@ -1,1 +1,17 @@
-
+{
+   "Bug_Name":"Application crashes upon clicking the SAVE button while creating a new user",
+   "Bug_ID":10001,
+   "Severity":"HIGH",
+   "Priority":"HIGH",
+   "Description":"Application crashes upon clicking the SAVE button while creating a new the user, hence unable to create a new user in the application",
+   "Steps_to_Reproduce":[
+      "Login into the Application",
+      "Navigate to the Users Menu -> New User",
+      "Filled out all the user information fields",
+      "Clicked on the ‘Save’ button",
+      "Seen an error page “ORA1090 Exception: Insert values Err",
+      "See the attached logs for more information (Attach more logs related to the bug..IF any)",
+      "Also see the attached screenshot of the error page"
+   ],
+   "Expected_Result":"On clicking the SAVE button, you should be prompted to a successful message “New User has been created successfully”"
+}
